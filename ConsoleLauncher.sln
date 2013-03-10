@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleLauncher", "ConsoleLauncher\ConsoleLauncher.csproj", "{62EA60B5-6A18-4491-950C-ADEE0BC5B119}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8377D418-5BBE-41C4-BE03-A2F8F78C71B6} = {8377D418-5BBE-41C4-BE03-A2F8F78C71B6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendCtrlC", "SendCtrlC\SendCtrlC.csproj", "{8377D418-5BBE-41C4-BE03-A2F8F78C71B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestService", "TestService\TestService.csproj", "{A9760A67-B79B-44C4-9888-6029D7D4B4F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62EA60B5-6A18-4491-950C-ADEE0BC5B119}.Debug|x86.ActiveCfg = Debug|x86
+		{62EA60B5-6A18-4491-950C-ADEE0BC5B119}.Debug|x86.Build.0 = Debug|x86
+		{62EA60B5-6A18-4491-950C-ADEE0BC5B119}.Release|x86.ActiveCfg = Release|x86
+		{62EA60B5-6A18-4491-950C-ADEE0BC5B119}.Release|x86.Build.0 = Release|x86
+		{8377D418-5BBE-41C4-BE03-A2F8F78C71B6}.Debug|x86.ActiveCfg = Debug|x86
+		{8377D418-5BBE-41C4-BE03-A2F8F78C71B6}.Debug|x86.Build.0 = Debug|x86
+		{8377D418-5BBE-41C4-BE03-A2F8F78C71B6}.Release|x86.ActiveCfg = Release|x86
+		{8377D418-5BBE-41C4-BE03-A2F8F78C71B6}.Release|x86.Build.0 = Release|x86
+		{A9760A67-B79B-44C4-9888-6029D7D4B4F0}.Debug|x86.ActiveCfg = Debug|x86
+		{A9760A67-B79B-44C4-9888-6029D7D4B4F0}.Debug|x86.Build.0 = Debug|x86
+		{A9760A67-B79B-44C4-9888-6029D7D4B4F0}.Release|x86.ActiveCfg = Release|x86
+		{A9760A67-B79B-44C4-9888-6029D7D4B4F0}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
